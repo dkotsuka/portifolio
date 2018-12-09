@@ -1,16 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<title>Portfolio</title>
-</head>
-<body>
-	<header>
-		<h1>Daniel K. Otsuka</h1>
-		<p>Web Front-End Developer</p>
-	</header>
+<html>
 
-	<script type="text/javascript" src="./js/scripts.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="container-fluid">
+	
+	<!----------NAVIGATION SECTION-------->
+
+    <nav class="row translucent-black">
+        <div class="nav align-items-center">
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#" class="nav-link">Contacts</a>
+        </div>
+        <button id="toggle-menu" class="hidden"></button>
+    </nav>
+
+	<!----------HEADER SECTION-------->
+
+    <header class="row align-items-center justify-content-center">
+    	<div class="column justify-content-center">
+    		<div class="translucent-black">
+	            <h1>Daniel K. Otsuka</h1>
+	            <p>Web Front-End Developer</p>
+	        </div>
+	        <div class="translucent-black social">
+	            <a href="https://github.com/dkotsuka" title="Github">
+	            	<h2 class="social-icon github"><span>github</span></h2>
+	            </a>
+	            <a href="https://www.linkedin.com/in/dkotsuka/" title="LinkedIn">
+	            	<h2 class="social-icon linkedin"><span>linkedin</span></h2>
+	            </a>
+	            <a href="https://twitter.com/dkotsuka/" title="LinkedIn">
+	            	<h2 class="social-icon twitter"><span>twitter</span></h2>
+	            </a>
+	        </div>
+    	</div>
+    </header>
+
+    <!----------ABOUT ME SECTION-------->
+
+    <section id="about" class="row align-items-center justify-content-center about">
+    	<div class="col-lg-6 col-md-8 col-12 about">
+    		<img src='./img/portrait.jpg'>
+			<p>Olá, seja bem vindo ao meu portfólio!</p>
+			<p>Programo há pouco mais de um ano, quando fiz um curso de desenvolvimento de Apps para Android na Udacity. Passei para o desenvolvimento Front-End para Web, onde descobri um verdadeiro gosto pela programação e pelo JavaScript.</p>
+    	</div>
+    </section>
+
+    <!----------PROJECTS SECTION-------->
+
+    <section id="projects" class="row">
+    	<div class="col-md-12 project-container">
+    		
+    	</div>
+    </section>
+
+    <!----------CONTACT SECTION-------->
+
+    <section id="contact" class="row contact">
+    	<div class="col-md-12">
+    		<span>dkotsuka@gmail.com</span>
+    		
+    	</div>
+    </section>
+
+
+    <!----------ATTRIBUTION SECTION-------->
+
+    <section class="attribution">
+        <p>Github icon made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </p>
+        <p>LinkedIn icon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        </p>
+        <p>Twitter icon made by <a href="https://www.flaticon.com/authors/bogdan-rosu" title="Bogdan Rosu">Bogdan Rosu</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    	</p>
+    </section>
+    <footer class="row translucent-black">
+    	<p>© 2018 <b><a href="http://dkotsuka.com" title="Daniel K. Otsuka">dkotsuka</a></b>. Todo os direitos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="./js/scripts.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,187 @@
+.hidden{
+	display: none;
+}
+.translucent-black{
+	background-color: rgba(0,0,0,0.6);
+}
+
+body{
+	background-color: #555;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+/*====================   NAVBAR   ===================*/
+nav{
+	height: 48px;
+	margin-bottom: -48px;
+	padding-right: 15px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+nav a{
+	transition: color 0.8s, background-color 0.6s;
+	height: 48px;
+}
+
+nav a:hover{
+	background-color: rgba(255,255,255,0.8);
+	color: black;
+}
+/*====================   HEADER   ===================*/
+header{
+	background-image: url("../img/header-background.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 550px;
+	height: 100vh;
+}
+
+header div{
+	text-align: center;
+	padding: 5px 30px;
+	border-radius: 5px;
+	margin: 30px;
+}
+
+header h1{
+	color: white;
+}
+
+header p{
+	background-color: rgba(255,255,255,0.8);
+	color: #222;
+	margin: 0;
+	margin-bottom: -18px;
+	border-radius: 3px;
+}
+
+header div.social{
+	display: flex;
+	max-width: 150px;
+	justify-content: space-between;
+	padding: 5px;
+	margin: 30px auto;
+	border-radius: 40px;
+}
+header div.social .social-icon{
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+	margin: 2px;
+	border-radius: 50%;
+	transition: opacity 1s, width 0.2s, height 0.2s, margin 0.2s;
+}
+header div.social .social-icon:hover{
+	opacity: 1;
+	width: 44px;
+	height: 44px;
+	margin: 0px;
+}
+header div.social .github{
+	background-image: url(../img/github.svg);
+}
+header div.social .linkedin{
+	background-image: url(../img/linkedin.svg);
+}
+header div.social .twitter{
+	background-image: url(../img/twitter.svg);
+}
+header div.social span{
+	display: none;
+}
+
+@media (max-width: 575.98px) {
+	header h1{
+		font-size: 2em;
+	}
+	header p{
+		font-size: 0.8em;
+	}
+}
+
+@media (min-width: 922px) {
+	header h1{
+		font-size: 3em;
+	}
+	header p{
+		font-size: 1em;
+	}
+}
+
+/*====================   ABOUT ME   ===================*/
+
+section.about{
+	text-align: center;
+	padding: 80px 0;
+	box-shadow: 0 2px 5px 0 #000 inset;
+	background-image: url(../img/backlit.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.about div{
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 2px 2px 5px 0 #000;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+section.about img{
+	margin-top: -65px;
+	margin-bottom: 15px;
+	width: 100px;
+	border-radius: 50%;
+}
+section.about p{
+	font-size: 1em;
+}
+
+@media (max-width: 575.98px) {
+	section.about div{
+		border-radius: 0;
+	}
+}
+
+/*====================   ATTRIBUTION   ===================*/
+section.attribution{
+	text-align: center;
+	padding: 15px 0;
+}
+section.attribution p{
+	font-size: 0.8em;
+	color: #ddd;
+	margin: 0;
+}
+
+/*====================   FOOTER   ===================*/
+footer{
+	height: 48px;
+}
+footer p{
+	line-height: 48px;
+	text-align: center;
+	width: 100%;
+	color: #eee;
+	margin: 0;
+}
+
+@media (max-width: 575.98px) {
+	footer p{
+		font-size: 0.8em;
+	}
+}
