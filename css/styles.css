@@ -17,9 +17,9 @@ a:hover{
 }
 /*====================   NAVBAR   ===================*/
 nav{
-	height: 48px;
-	margin-bottom: -48px;
-	padding-right: 15px;
+	height: 3rem;
+	margin-bottom: -3rem;
+	padding-right: 1rem;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -28,7 +28,7 @@ nav{
 
 nav a{
 	transition: color 0.8s, background-color 0.6s;
-	height: 48px;
+	height: 3rem;
 }
 
 nav a:hover{
@@ -67,7 +67,7 @@ header p{
 
 header div.social{
 	display: flex;
-	max-width: 150px;
+	max-width: 180px;
 	justify-content: space-between;
 	padding: 5px;
 	margin: 30px auto;
@@ -82,7 +82,6 @@ header div.social .social-icon{
 	opacity: 0.6;
 	margin: 2px;
 	border-radius: 50%;
-	transition: opacity 1s, width 0.2s, height 0.2s, margin 0.2s;
 }
 header div.social .social-icon:hover{
 	opacity: 1;
@@ -127,7 +126,7 @@ section.about{
 	text-align: center;
 	padding: 80px 0;
 	box-shadow: 0 2px 5px 0 #000 inset;
-	background-image: url(../img/backlit.jpg);
+	background-image: url(../img/about-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -155,6 +154,45 @@ section.about p{
 	section.about div{
 		border-radius: 0;
 	}
+}
+
+/*====================   PROJECTS   ===================*/
+section.projects{
+	background-color: #ddd;
+}
+
+section.projects .project{
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+section.projects .pj-img-container{
+	width: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-color: #555;
+	border-radius: 5px;
+}
+section.projects h2{
+	background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,1));
+	height: 4rem;
+	line-height: 4rem;
+	margin-top: -4rem;
+	font-size: 1.25rem;
+	color: white;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+section.projects a span{
+	width: 100px;
+	height: 1.5em;
+	display: block;
+	background-color: rgba(0,0,0,0.6)
 }
 
 /*====================   ATTRIBUTION   ===================*/
