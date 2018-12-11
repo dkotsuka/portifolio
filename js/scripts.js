@@ -3,35 +3,35 @@ const projects = [
 		id: 'u-wfe-pj4',
 		name: 'My Reads App',
 		url: 'https://dkotsuka.github.io/my-reads/',
-		img: 'https://dkotsuka.github.io/portfolio/img/u-wfe-pj4.jpg',
+		img: 'https://user-images.githubusercontent.com/25888192/49825805-7241a480-fd6c-11e8-8095-0543b2525621.JPG',
 		skills: ['react', 'javascript', 'html', 'css']
 	},
 	{
 		id: 'u-wfe-pj3',
 		name: 'Restaurants Reviews',
 		url: 'https://dkotsuka.github.io/mws-restaurant-stage-1/',
-		img: 'https://dkotsuka.github.io/portfolio/img/u-wfe-pj3.jpg',
+		img: 'https://user-images.githubusercontent.com/25888192/49825803-7241a480-fd6c-11e8-956a-56e754801b89.JPG',
 		tags: ['javascript', 'css', 'html']
 	},
 	{
 		id: 'u-wfe-pj1',
 		name: 'Frog Game Clone',
 		url: 'https://dkotsuka.github.io/front-end-nanodegree-frog-clone/',
-		img: 'https://dkotsuka.github.io/portfolio/img/u-wfe-pj1.jpg',
+		img: 'https://user-images.githubusercontent.com/25888192/49825802-71a90e00-fd6c-11e8-9268-0b4903fa30c1.JPG',
 		tags: ['javascript']
 	},
 	{
 		id: 'pc-js-pj1',
 		name: 'Conversor de Moedas',
 		url: 'https://dkotsuka.github.io/pm-projetos/Projeto012/index.html',
-		img: 'https://dkotsuka.github.io/portfolio/img/pm-js-pj1.jpg',
+		img: 'https://user-images.githubusercontent.com/25888192/49825806-7241a480-fd6c-11e8-9c98-99baf0f32315.JPG',
 		tags: ['javascript','css']
 	},
 	{
 		id: 'pc-js-pj2',
 		name: 'Calculadora de IMC',
 		url: 'https://dkotsuka.github.io/pm-projetos/Projeto011/index.html',
-		img: 'https://dkotsuka.github.io/portfolio/img/pm-js-pj2.jpg',
+		img: 'https://user-images.githubusercontent.com/25888192/49825801-71a90e00-fd6c-11e8-9e64-6b007e400db2.JPG',
 		tags: ['javascript','css']
 	},
 ];
